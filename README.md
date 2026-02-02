@@ -4,7 +4,9 @@ This project focuses on predicting whether a student will get placed or not plac
 This project aims to predict the placement chances of college students using a **Random Forest Classifier**. The model is trained on a dataset containing student information such as CGPA, internship experience, projects,placement etc.
 
 The model used is a Random Forest Classifier, which is an ensemble learning method that combines multiple decision trees to improve prediction accuracy.
-
+```
+from sklearn.ensemble import RandomForestClassifier
+```
 The model achieves an accuracy of ~99% on the test dataset.
 
 *Get the College Student Placement dataset using below line*
